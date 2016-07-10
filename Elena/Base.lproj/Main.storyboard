@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Elena" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sm-X0-2SQ">
+                                <rect key="frame" x="227" y="78" width="145" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elena" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAU-hq-RmL">
+                                <rect key="frame" x="257" y="28" width="85" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yAU-hq-RmL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="5ff-gw-v9M"/>
+                            <constraint firstItem="yAU-hq-RmL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7nB-J7-QAK"/>
+                            <constraint firstItem="5Sm-X0-2SQ" firstAttribute="top" secondItem="yAU-hq-RmL" secondAttribute="bottom" constant="8" id="sJD-o9-SQE"/>
+                            <constraint firstItem="5Sm-X0-2SQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vhd-Da-Kwx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="FIg-gU-4fI" kind="showDetail" identifier="showHome" action="showViewController:sender:" id="mxb-oQ-AOP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="174"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="ytR-oy-YVI">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="FIg-gU-4fI" customClass="HomeViewController" customModule="Elena" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fn3-XF-KCW"/>
+                        <viewControllerLayoutGuide type="bottom" id="8iA-Rg-8p0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YxQ-pd-8jH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elena" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eS0-eC-64J">
+                                <rect key="frame" x="258" y="28" width="85" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eX8-Oy-D4K">
+                                <rect key="frame" x="225" y="78" width="151" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username goes here." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1c-yp-MUz">
+                                <rect key="frame" x="220" y="116" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H1c-yp-MUz" firstAttribute="top" secondItem="eX8-Oy-D4K" secondAttribute="bottom" constant="8" id="3M9-hF-n91"/>
+                            <constraint firstItem="H1c-yp-MUz" firstAttribute="centerX" secondItem="YxQ-pd-8jH" secondAttribute="centerX" id="Glh-6R-Jkb"/>
+                            <constraint firstItem="eX8-Oy-D4K" firstAttribute="centerX" secondItem="YxQ-pd-8jH" secondAttribute="centerX" id="P57-8T-UjW"/>
+                            <constraint firstItem="eX8-Oy-D4K" firstAttribute="top" secondItem="eS0-eC-64J" secondAttribute="bottom" constant="8" id="WUg-eu-iJq"/>
+                            <constraint firstItem="eX8-Oy-D4K" firstAttribute="centerY" secondItem="YxQ-pd-8jH" secondAttribute="centerY" id="WYk-P8-xGI"/>
+                            <constraint firstItem="eS0-eC-64J" firstAttribute="centerY" secondItem="YxQ-pd-8jH" secondAttribute="centerY" id="Yrp-dO-1hS"/>
+                            <constraint firstItem="H1c-yp-MUz" firstAttribute="centerY" secondItem="YxQ-pd-8jH" secondAttribute="centerY" id="fWs-4x-Es2"/>
+                            <constraint firstItem="eS0-eC-64J" firstAttribute="centerX" secondItem="YxQ-pd-8jH" secondAttribute="centerX" id="hAB-bJ-7nj"/>
+                            <constraint firstItem="eX8-Oy-D4K" firstAttribute="centerY" secondItem="YxQ-pd-8jH" secondAttribute="centerY" id="jJo-lr-OR4"/>
+                            <constraint firstItem="eS0-eC-64J" firstAttribute="top" secondItem="Fn3-XF-KCW" secondAttribute="bottom" constant="8" id="vZR-Q2-NGI"/>
+                            <constraint firstItem="eS0-eC-64J" firstAttribute="centerX" secondItem="YxQ-pd-8jH" secondAttribute="centerX" id="y3H-yq-CHS"/>
+                            <constraint firstItem="eX8-Oy-D4K" firstAttribute="top" secondItem="eS0-eC-64J" secondAttribute="bottom" constant="8" id="zPE-LP-dUI"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="WYk-P8-xGI"/>
+                                <exclude reference="jJo-lr-OR4"/>
+                                <exclude reference="zPE-LP-dUI"/>
+                                <exclude reference="fWs-4x-Es2"/>
+                                <exclude reference="Yrp-dO-1hS"/>
+                                <exclude reference="y3H-yq-CHS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="usernameLabel" destination="H1c-yp-MUz" id="xVO-W9-Okx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VVd-fH-g5Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="174"/>
+        </scene>
+    </scenes>
+</document>

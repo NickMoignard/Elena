@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D9E2A5FEA729BD0AFC07C58 /* libPods-Elena.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0CB228D0005B144E413B02 /* libPods-Elena.a */; };
+		7C04FB7F1D314A050034FD55 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C04FB7D1D314A050034FD55 /* FBSDKCoreKit.framework */; };
+		7C04FB801D314A050034FD55 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C04FB7E1D314A050034FD55 /* FBSDKLoginKit.framework */; };
+		7CA3A1461D3161CF0042A31C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3A1451D3161CF0042A31C /* HomeViewController.swift */; };
+		7CA6C56F1D2FED2000460997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6C56E1D2FED2000460997 /* AppDelegate.swift */; };
+		7CA6C5711D2FED2000460997 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6C5701D2FED2000460997 /* LoginViewController.swift */; };
+		7CA6C5741D2FED2000460997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6C5721D2FED2000460997 /* Main.storyboard */; };
+		7CA6C5761D2FED2000460997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6C5751D2FED2000460997 /* Assets.xcassets */; };
+		7CA6C5791D2FED2000460997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6C5771D2FED2000460997 /* LaunchScreen.storyboard */; };
+		7CA6C5841D2FED2000460997 /* ElenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6C5831D2FED2000460997 /* ElenaTests.swift */; };
+		7CA6C58F1D2FED2000460997 /* ElenaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6C58E1D2FED2000460997 /* ElenaUITests.swift */; };
+		7CA6C59D1D31447D00460997 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA6C59C1D31447D00460997 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CA6C5801D2FED2000460997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA6C5631D2FED2000460997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA6C56A1D2FED2000460997;
+			remoteInfo = Elena;
+		};
+		7CA6C58B1D2FED2000460997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA6C5631D2FED2000460997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA6C56A1D2FED2000460997;
+			remoteInfo = Elena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0CB228D0005B144E413B02 /* libPods-Elena.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Elena.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C04FB7C1D3149880034FD55 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		7C04FB7D1D314A050034FD55 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../iOS/SDK's/FacebookSDK/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		7C04FB7E1D314A050034FD55 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../iOS/SDK's/FacebookSDK/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		7CA3A1451D3161CF0042A31C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7CA6C56B1D2FED2000460997 /* Elena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA6C56E1D2FED2000460997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CA6C5701D2FED2000460997 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7CA6C5731D2FED2000460997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CA6C5751D2FED2000460997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CA6C5781D2FED2000460997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CA6C57A1D2FED2000460997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA6C57F1D2FED2000460997 /* ElenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA6C5831D2FED2000460997 /* ElenaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElenaTests.swift; sourceTree = "<group>"; };
+		7CA6C5851D2FED2000460997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA6C58A1D2FED2000460997 /* ElenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA6C58E1D2FED2000460997 /* ElenaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElenaUITests.swift; sourceTree = "<group>"; };
+		7CA6C5901D2FED2000460997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA6C59C1D31447D00460997 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A714091D048455C2537BF182 /* Pods-Elena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elena.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elena/Pods-Elena.release.xcconfig"; sourceTree = "<group>"; };
+		FA3C5B666998EA3B9904FA6B /* Pods-Elena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elena/Pods-Elena.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CA6C5681D2FED2000460997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9E2A5FEA729BD0AFC07C58 /* libPods-Elena.a in Frameworks */,
+				7C04FB7F1D314A050034FD55 /* FBSDKCoreKit.framework in Frameworks */,
+				7C04FB801D314A050034FD55 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA6C57C1D2FED2000460997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA6C5871D2FED2000460997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381F623BBA4B38E5329A289E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C04FB7D1D314A050034FD55 /* FBSDKCoreKit.framework */,
+				7C04FB7E1D314A050034FD55 /* FBSDKLoginKit.framework */,
+				0A0CB228D0005B144E413B02 /* libPods-Elena.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50109A5778882254713A5C29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C5B666998EA3B9904FA6B /* Pods-Elena.debug.xcconfig */,
+				A714091D048455C2537BF182 /* Pods-Elena.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CA6C5621D2FED2000460997 = {
+			isa = PBXGroup;
+			children = (
+				7CA6C56D1D2FED2000460997 /* Elena */,
+				7CA6C5821D2FED2000460997 /* ElenaTests */,
+				7CA6C58D1D2FED2000460997 /* ElenaUITests */,
+				7CA6C56C1D2FED2000460997 /* Products */,
+				50109A5778882254713A5C29 /* Pods */,
+				381F623BBA4B38E5329A289E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CA6C56C1D2FED2000460997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6C56B1D2FED2000460997 /* Elena.app */,
+				7CA6C57F1D2FED2000460997 /* ElenaTests.xctest */,
+				7CA6C58A1D2FED2000460997 /* ElenaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CA6C56D1D2FED2000460997 /* Elena */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6C56E1D2FED2000460997 /* AppDelegate.swift */,
+				7CA6C5701D2FED2000460997 /* LoginViewController.swift */,
+				7CA3A1451D3161CF0042A31C /* HomeViewController.swift */,
+				7CA6C5721D2FED2000460997 /* Main.storyboard */,
+				7CA6C5751D2FED2000460997 /* Assets.xcassets */,
+				7CA6C5771D2FED2000460997 /* LaunchScreen.storyboard */,
+				7CA6C57A1D2FED2000460997 /* Info.plist */,
+				7CA6C59C1D31447D00460997 /* GoogleService-Info.plist */,
+				7C04FB7C1D3149880034FD55 /* Bridging-Header.h */,
+			);
+			path = Elena;
+			sourceTree = "<group>";
+		};
+		7CA6C5821D2FED2000460997 /* ElenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6C5831D2FED2000460997 /* ElenaTests.swift */,
+				7CA6C5851D2FED2000460997 /* Info.plist */,
+			);
+			path = ElenaTests;
+			sourceTree = "<group>";
+		};
+		7CA6C58D1D2FED2000460997 /* ElenaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6C58E1D2FED2000460997 /* ElenaUITests.swift */,
+				7CA6C5901D2FED2000460997 /* Info.plist */,
+			);
+			path = ElenaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CA6C56A1D2FED2000460997 /* Elena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA6C5931D2FED2000460997 /* Build configuration list for PBXNativeTarget "Elena" */;
+			buildPhases = (
+				D6BDF061ED8B14BDFF62B9C7 /* Check Pods Manifest.lock */,
+				7CA6C5671D2FED2000460997 /* Sources */,
+				7CA6C5681D2FED2000460997 /* Frameworks */,
+				7CA6C5691D2FED2000460997 /* Resources */,
+				767A3E0E29527E394290F32C /* Embed Pods Frameworks */,
+				2960DC304DEF8E7B37E88B48 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elena;
+			productName = Elena;
+			productReference = 7CA6C56B1D2FED2000460997 /* Elena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CA6C57E1D2FED2000460997 /* ElenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA6C5961D2FED2000460997 /* Build configuration list for PBXNativeTarget "ElenaTests" */;
+			buildPhases = (
+				7CA6C57B1D2FED2000460997 /* Sources */,
+				7CA6C57C1D2FED2000460997 /* Frameworks */,
+				7CA6C57D1D2FED2000460997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA6C5811D2FED2000460997 /* PBXTargetDependency */,
+			);
+			name = ElenaTests;
+			productName = ElenaTests;
+			productReference = 7CA6C57F1D2FED2000460997 /* ElenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CA6C5891D2FED2000460997 /* ElenaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA6C5991D2FED2000460997 /* Build configuration list for PBXNativeTarget "ElenaUITests" */;
+			buildPhases = (
+				7CA6C5861D2FED2000460997 /* Sources */,
+				7CA6C5871D2FED2000460997 /* Frameworks */,
+				7CA6C5881D2FED2000460997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA6C58C1D2FED2000460997 /* PBXTargetDependency */,
+			);
+			name = ElenaUITests;
+			productName = ElenaUITests;
+			productReference = 7CA6C58A1D2FED2000460997 /* ElenaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CA6C5631D2FED2000460997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Elena;
+				TargetAttributes = {
+					7CA6C56A1D2FED2000460997 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7CA6C57E1D2FED2000460997 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7CA6C56A1D2FED2000460997;
+					};
+					7CA6C5891D2FED2000460997 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7CA6C56A1D2FED2000460997;
+					};
+				};
+			};
+			buildConfigurationList = 7CA6C5661D2FED2000460997 /* Build configuration list for PBXProject "Elena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CA6C5621D2FED2000460997;
+			productRefGroup = 7CA6C56C1D2FED2000460997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CA6C56A1D2FED2000460997 /* Elena */,
+				7CA6C57E1D2FED2000460997 /* ElenaTests */,
+				7CA6C5891D2FED2000460997 /* ElenaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CA6C5691D2FED2000460997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA6C5791D2FED2000460997 /* LaunchScreen.storyboard in Resources */,
+				7CA6C5761D2FED2000460997 /* Assets.xcassets in Resources */,
+				7CA6C5741D2FED2000460997 /* Main.storyboard in Resources */,
+				7CA6C59D1D31447D00460997 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA6C57D1D2FED2000460997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA6C5881D2FED2000460997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2960DC304DEF8E7B37E88B48 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elena/Pods-Elena-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		767A3E0E29527E394290F32C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elena/Pods-Elena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BDF061ED8B14BDFF62B9C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CA6C5671D2FED2000460997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA6C5711D2FED2000460997 /* LoginViewController.swift in Sources */,
+				7CA3A1461D3161CF0042A31C /* HomeViewController.swift in Sources */,
+				7CA6C56F1D2FED2000460997 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA6C57B1D2FED2000460997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA6C5841D2FED2000460997 /* ElenaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA6C5861D2FED2000460997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA6C58F1D2FED2000460997 /* ElenaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CA6C5811D2FED2000460997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA6C56A1D2FED2000460997 /* Elena */;
+			targetProxy = 7CA6C5801D2FED2000460997 /* PBXContainerItemProxy */;
+		};
+		7CA6C58C1D2FED2000460997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA6C56A1D2FED2000460997 /* Elena */;
+			targetProxy = 7CA6C58B1D2FED2000460997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CA6C5721D2FED2000460997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA6C5731D2FED2000460997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CA6C5771D2FED2000460997 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA6C5781D2FED2000460997 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CA6C5911D2FED2000460997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CA6C5921D2FED2000460997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CA6C5941D2FED2000460997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3C5B666998EA3B9904FA6B /* Pods-Elena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/google-drive/coding/ios/SDKs/FacebookSDK/**",
+				);
+				INFOPLIST_FILE = Elena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NLM.Elena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "~/google-drive/Coding/eia/ios-app/Elena/Elena/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		7CA6C5951D2FED2000460997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A714091D048455C2537BF182 /* Pods-Elena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/google-drive/coding/ios/SDKs/FacebookSDK/**",
+				);
+				INFOPLIST_FILE = Elena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NLM.Elena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "~/google-drive/Coding/eia/ios-app/Elena/Elena/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7CA6C5971D2FED2000460997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NLM.ElenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elena.app/Elena";
+			};
+			name = Debug;
+		};
+		7CA6C5981D2FED2000460997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NLM.ElenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elena.app/Elena";
+			};
+			name = Release;
+		};
+		7CA6C59A1D2FED2000460997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NLM.ElenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Elena;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7CA6C59B1D2FED2000460997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NLM.ElenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Elena;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CA6C5661D2FED2000460997 /* Build configuration list for PBXProject "Elena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA6C5911D2FED2000460997 /* Debug */,
+				7CA6C5921D2FED2000460997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA6C5931D2FED2000460997 /* Build configuration list for PBXNativeTarget "Elena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA6C5941D2FED2000460997 /* Debug */,
+				7CA6C5951D2FED2000460997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA6C5961D2FED2000460997 /* Build configuration list for PBXNativeTarget "ElenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA6C5971D2FED2000460997 /* Debug */,
+				7CA6C5981D2FED2000460997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA6C5991D2FED2000460997 /* Build configuration list for PBXNativeTarget "ElenaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA6C59A1D2FED2000460997 /* Debug */,
+				7CA6C59B1D2FED2000460997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CA6C5631D2FED2000460997 /* Project object */;
+}
